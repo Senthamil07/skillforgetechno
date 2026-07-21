@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://skillforgetechnology.co.in/</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://skillforgetechnology.co.in/about</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://skillforgetechnology.co.in/courses</loc>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://skillforgetechnology.co.in/data-science</loc>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://skillforgetechnology.co.in/data-analytics</loc>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://skillforgetechnology.co.in/aws-devops</loc>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://skillforgetechnology.co.in/networking</loc>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://skillforgetechnology.co.in/scholarship</loc>
+    <priority>0.75</priority>
+  </url>
+
+  <url>
+    <loc>https://skillforgetechnology.co.in/contact</loc>
+    <priority>0.80</priority>
+  </url>
+
+</urlset>

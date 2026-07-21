@@ -1,0 +1,6 @@
+{
+  "name": "SKILL FORGE",
+  "description": "Premium training institute in Data Science, Data Analytics, and AWS Cloud.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&family=Outfit:wght@500;700;850;900&family=Space+Grotesk:wght@500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-mono: "Outfit", sans-serif;
+}
+
+/* Custom scrollbar and premium glowing elements */
+@layer base {
+  html {
+    scroll-behavior: smooth !important;
+  }
+  body {
+    background-color: #ffffff;
+    color: #0c0a09;
+    font-family: var(--font-sans);
+  }
+
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #e2e8f0;
+    border-radius: 9999px;
+    border: 2px solid #ffffff;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #F5B400;
+  }
+}
+
+/* Premium Card Style explicitly requested:
+   background:#121212;
+   border:1px solid rgba(245,180,0,.15);
+   border-radius:24px;
+   backdrop-filter:blur(20px);
+*/
+.premium-card {
+  background: #ffffff;
+  border: 1.5px solid rgba(245, 180, 0, 0.3);
+  border-radius: 24px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 10px 30px -10px rgba(146, 111, 18, 0.08), 0 1px 3px rgba(0, 0, 0, 0.02);
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.premium-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #F5B400, #926F12, #F5B400);
+  background-size: 200% auto;
+  opacity: 0.85;
+  transition: opacity 0.3s ease;
+}
+
+.premium-card:hover {
+  transform: translateY(-8px) scale(1.015);
+  border-color: #F5B400;
+  box-shadow: 0 20px 40px -15px rgba(245, 180, 0, 0.3), 0 0 15px rgba(245, 180, 0, 0.05);
+}
+
+/* Premium Buttons explicitly requested:
+   background:#F5B400;
+   color:#000;
+   font-weight:700;
+   border-radius:16px;
+   padding:14px 28px;
+*/
+.premium-btn-primary {
+  background: #F5B400;
+  color: #000;
+  font-weight: 700;
+  border-radius: 16px;
+  padding: 14px 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: pointer;
+}
+
+.premium-btn-primary:hover {
+  background: #000000;
+  color: #F5B400;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px -4px rgba(245, 180, 0, 0.2);
+}
+
+.premium-btn-primary:active {
+  transform: translateY(0);
+}
+
+.premium-btn-secondary {
+  background: transparent;
+  color: #0c0a09;
+  font-weight: 700;
+  border-radius: 16px;
+  padding: 13px 27px;
+  border: 1.5px solid #0c0a09;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: pointer;
+}
+
+.premium-btn-secondary:hover {
+  background: rgba(245, 180, 0, 0.08);
+  border-color: #F5B400;
+  color: #000000;
+  transform: translateY(-2px);
+}
+
+.premium-btn-secondary:active {
+  transform: translateY(0);
+}
+
+.gold-glow-hover {
+  position: relative;
+}
+
+/* Golden text and borders */
+.gold-gradient {
+  background: linear-gradient(135deg, #0f172a 0%, #D4AF37 60%, #926F12 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Marquee keyframe animation for continuous loop */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes marquee-reverse {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  animation: marquee 35s linear infinite;
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+}
+
+.animate-marquee-fast {
+  display: flex;
+  animation: marquee 25s linear infinite;
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+}
+
+.animate-marquee-reverse {
+  display: flex;
+  animation: marquee-reverse 35s linear infinite;
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+}
+
+.animate-marquee-reverse-fast {
+  display: flex;
+  animation: marquee-reverse 25s linear infinite;
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+}
+
+.animate-marquee:hover, .animate-marquee-fast:hover, .animate-marquee-reverse:hover, .animate-marquee-reverse-fast:hover {
+  animation-play-state: paused;
+}
+
+/* Glow animation for the hero */
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.8;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.03);
+  }
+}
+
+.hero-glow-glow {
+  animation: pulseGlow 6s ease-in-out infinite;
+}
