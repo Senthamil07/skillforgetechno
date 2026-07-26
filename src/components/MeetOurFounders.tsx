@@ -47,7 +47,7 @@ export const MeetOurFounders: React.FC = () => {
     {
       id: "kalai",
       name: "Kalai",
-      designation: "Founder & Chief Partner Business Officer (CPBO)",
+      designation: "Co-Founder & Chief Partner Business Officer (CPBO)",
       description: "Every placement is the beginning of a new success story.",
       linkedin: "https://www.linkedin.com/in/kalai-skillforge/",
       imageUrl: kalaiImg,
@@ -55,7 +55,7 @@ export const MeetOurFounders: React.FC = () => {
     {
       id: "veath",
       name: "Veath Prakash",
-      designation: "Founder & Chief Marketing Officer (CMO)",
+      designation: "Co-Founder & Chief Marketing Officer (CMO)",
       description: "The strongest brands don't compete. They redefine the game.",
       linkedin: "https://www.linkedin.com/in/veath-prakash-b-95b066227",
       imageUrl: veathImg,
