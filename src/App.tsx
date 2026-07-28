@@ -73,34 +73,41 @@ export default function App() {
         description: "Learn Data Science in Tamil step by step. Beginner guide covering Python, SQL, Machine Learning, roadmap and career opportunities.",
         keywords: "Data Science in Tamil, Python, SQL, Machine Learning, Data Analyst, Career Guide",
       });
-    } else {
-      // Dynamic description depending on active interest
-      let desc = "Step into high-paying technology roles. Master Data Science, Data Analytics, and AWS Cloud with verified modular curricula, direct mentorship, and spreadsheet-bound career placement metrics.";
-      let title = "Skill Forge Technology | Master Data Science, Data Analytics & AWS Cloud";
+   } else {
+  let title =
+    "Skill Forge Technologies | Premium Online IT Training Institute";
 
-      if (preselectedCourse === "Data Science Specialization") {
-        title = "Data Science Specialization | Skill Forge Technology";
-        desc = "Master advanced mathematical loops, supervised & unsupervised machine learning pipeline blueprints, and real AI Agent creations at Skill Forge.";
-      } else if (preselectedCourse === "Data Analytics Program") {
-        title = "Data Analytics Program | Skill Forge Technology";
-        desc = "Learn structural SQL queries, dimensional storytelling, advanced PowerBI DAX presentation layers, and KPI reporting.";
-      } else if (preselectedCourse === "AWS Cloud") {
-        title = "AWS Cloud | Skill Forge Technology";
-        desc = "Deploy secure VPC networks, multi-region load balancers, serverless Lambda models, and Terraform structures.";
-      }
+  let desc =
+    "Skill Forge Technologies offers industry-focused online training in Data Science, Data Analytics, AWS & DevOps, and CCNA Networking with live classes, real-world projects, expert mentors, and placement assistance.";
 
-      updateSEOMetadata({
-        title,
-        description: desc,
-      });
-    }
-  }, [currentView, preselectedCourse]);
+  if (
+    currentView !== "home" &&
+    preselectedCourse === "Data Science Specialization"
+  ) {
+    title = "Data Science Course | Skill Forge Technologies";
+    desc =
+      "Learn Data Science with Python, SQL, Machine Learning, Artificial Intelligence, real-world projects, expert mentoring, and placement assistance.";
+  } else if (
+    currentView !== "home" &&
+    preselectedCourse === "Data Analytics Program"
+  ) {
+    title = "Data Analytics Course | Skill Forge Technologies";
+    desc =
+      "Learn Excel, SQL, Power BI, Python, dashboard development, business analytics, real-world projects, and placement assistance.";
+  } else if (
+    currentView !== "home" &&
+    preselectedCourse === "AWS Cloud"
+  ) {
+    title = "AWS and DevOps Course | Skill Forge Technologies";
+    desc =
+      "Learn AWS Cloud, Linux, Docker, Kubernetes, Terraform, CI/CD, practical labs, projects, and placement assistance.";
+  }
 
-  const scrollToSection = (id: string) => {
-    const el = document.getElementById(id);
-    if (el) {
-      el.scrollIntoView({ behavior: "smooth" });
-    }
+  updateSEOMetadata({
+    title,
+    description: desc,
+  });
+}
   };
 
   const handleApplyClick = () => {
