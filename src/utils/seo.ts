@@ -17,10 +17,13 @@ title = "Skill Forge Technologies | Premium Online IT Training Institute",
 
 description = "Skill Forge Technologies offers industry-focused online training in Data Science, Data Analytics, AWS & DevOps, and CCNA Networking. Learn through live classes, real-world projects, expert mentors, placement assistance, and career guidance. Forge Your Future.",
 
-keywords = "Skill Forge Technologies, Data Science Course, Data Analytics Course, AWS DevOps Training, CCNA Training, Online IT Training, Live Classes, Placement Assistance, Career Training, Python, Machine Learning, Artificial Intelligence, Power BI, SQL, Cloud Computing, Networking",
+keywords = "Skill Forge Technologies, Data Science Course, Data Analytics Course, AWS DevOps Training, CCNA Training, Online IT Training, Live Classes, Placement Assistance, Python, Machine Learning, Artificial Intelligence, Power BI, SQL, Cloud Computing, Networking",
 
-imageUrl = "https://www.skillforgetechnology.co.in/og-image.jpg"
-    canonicalUrl = window.location.href,
+ogType = "website",
+
+imageUrl = "https://www.skillforgetechnology.co.in/og-image.jpg",
+
+canonicalUrl = "https://www.skillforgetechnology.co.in/",
   } = options;
 
   // 1. Title
