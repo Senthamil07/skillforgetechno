@@ -21,9 +21,8 @@ keywords = "Skill Forge Technologies, Data Science Course, Data Analytics Course
 
 ogType = "website",
 
-imageUrl = "https://www.skillforgetechnology.co.in/og-image.jpg",
-
-canonicalUrl = "https://www.skillforgetechnology.co.in/",
+imageUrl = "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1200&auto=format&fit=crop",
+canonicalUrl = window.location.href,
   } = options;
 
   // 1. Title
