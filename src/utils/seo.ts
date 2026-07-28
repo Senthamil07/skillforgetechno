@@ -13,11 +13,13 @@ export function updateSEOMetadata(options: {
   if (typeof window === "undefined") return;
 
   const {
-    title = "Skill Forge Technology | Master Data Science, Data Analytics & AWS Cloud",
-    description = "Step into high-paying technology roles. Master Data Science, Data Analytics, and AWS Cloud with verified modular curricula, direct mentorship, and spreadsheet-bound career placement metrics.",
-    keywords = "Data Science course, Data Analytics training, AWS Cloud solutions architect, software engineering institute, tech bootcamps India, Zoho careers",
-    ogType = "website",
-    imageUrl = "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1200&auto=format&fit=crop",
+   title = "Skill Forge Technologies | Premium Online IT Training Institute",
+
+description = "Skill Forge Technologies offers industry-focused online training in Data Science, Data Analytics, AWS & DevOps, and CCNA Networking. Learn through live classes, real-world projects, expert mentors, and placement assistance. Forge Your Future.",
+
+keywords = "Skill Forge Technologies, Data Science Course, Data Analytics Course, AWS DevOps Training, CCNA Course, Online IT Training, Placement Assistance, Live Classes, Career Training",
+
+imageUrl = "https://www.skillforgetechnology.co.in/og-image.jpg",
     canonicalUrl = window.location.href,
   } = options;
 
