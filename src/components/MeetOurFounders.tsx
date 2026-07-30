@@ -6,7 +6,7 @@ import { motion } from "motion/react";
 import ganeshImg from "../assets/images/regenerated_image_1782709084982.jpg";
 import hariImg from "../assets/images/regenerated_image_1782709086190.jpg";
 import tamilImg from "../assets/images/regenerated_image_1782709087886.jpg";
-
+import kalaiImg from "../assets/images/regenerated
 import veathImg from "../assets/images/regenerated_image_1782709090512.jpg";
 
 interface Founder {
