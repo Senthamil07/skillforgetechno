@@ -21,12 +21,12 @@ import { motion } from "motion/react";
 export const MissionVision: React.FC = () => {
   const [activeTab, setActiveTab] = useState<"all" | "story" | "challenges" | "ecosystem" | "vision">("all");
 
-  const foundersList = const foundersList = [
-    "Ganesan Srinivasan (MD)",
-    "Hari krishnan Janarthanan (CEO)",
-    "Senthamil Selvan (COO)",
-    "Veath Prakash (CMO)"
-  ];
+ const foundersList = [
+  "Ganesan Srinivasan (MD)",
+  "Hari Krishnan Janarthanan (CEO)",
+  "Senthamil Selvan (COO)",
+  "Veath Prakash (CMO)",
+];
 
   return (
     <section id="journey-blog" className="py-12 sm:py-20 lg:py-24 bg-[#fafafc] border-t border-b border-zinc-200 overflow-hidden font-sans">
