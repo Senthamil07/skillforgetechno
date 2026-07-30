@@ -261,7 +261,7 @@ export default function App() {
                       </div>
                       <h3 className="text-sm font-bold text-zinc-950 mb-1">The Founding Technical Partners</h3>
                       <p className="text-zinc-500 text-xs font-light leading-relaxed">
-                        MD Ganesan Srinivasan, CEO Hari krishnan, COO Senthamil Selvan, CPBO Kalai, and CMO Veath Prakash, combining over 45 years of production software engineering and tech leadership.
+                        MD Ganesan Srinivasan, CEO Hari krishnan, COO Senthamil Selvan, and CMO Veath Prakash, combining over 45 years of production software engineering and tech leadership.
                       </p>
                     </div>
                   </div>
