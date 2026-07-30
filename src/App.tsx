@@ -73,42 +73,42 @@ export default function App() {
         description: "Learn Data Science in Tamil step by step. Beginner guide covering Python, SQL, Machine Learning, roadmap and career opportunities.",
         keywords: "Data Science in Tamil, Python, SQL, Machine Learning, Data Analyst, Career Guide",
       });
-   } else {
-  let title =
-    "Skill Forge Technologies | Premium Online IT Training Institute";
+    } else {
+      let title =
+        "Skill Forge Technologies | Premium Online IT Training Institute";
 
-  let desc =
-    "Skill Forge Technologies offers industry-focused online training in Data Science, Data Analytics, AWS & DevOps, and CCNA Networking with live classes, real-world projects, expert mentors, and placement assistance.";
+      let desc =
+        "Skill Forge Technologies offers industry-focused online training in Data Science, Data Analytics, AWS & DevOps, and CCNA Networking with live classes, real-world projects, expert mentors, and placement assistance.";
 
-  if (
-    currentView !== "home" &&
-    preselectedCourse === "Data Science Specialization"
-  ) {
-    title = "Data Science Course | Skill Forge Technologies";
-    desc =
-      "Learn Data Science with Python, SQL, Machine Learning, Artificial Intelligence, real-world projects, expert mentoring, and placement assistance.";
-  } else if (
-    currentView !== "home" &&
-    preselectedCourse === "Data Analytics Program"
-  ) {
-    title = "Data Analytics Course | Skill Forge Technologies";
-    desc =
-      "Learn Excel, SQL, Power BI, Python, dashboard development, business analytics, real-world projects, and placement assistance.";
-  } else if (
-    currentView !== "home" &&
-    preselectedCourse === "AWS Cloud"
-  ) {
-    title = "AWS and DevOps Course | Skill Forge Technologies";
-    desc =
-      "Learn AWS Cloud, Linux, Docker, Kubernetes, Terraform, CI/CD, practical labs, projects, and placement assistance.";
-  }
+      if (
+        currentView !== "home" &&
+        preselectedCourse === "Data Science Specialization"
+      ) {
+        title = "Data Science Course | Skill Forge Technologies";
+        desc =
+          "Learn Data Science with Python, SQL, Machine Learning, Artificial Intelligence, real-world projects, expert mentoring, and placement assistance.";
+      } else if (
+        currentView !== "home" &&
+        preselectedCourse === "Data Analytics Program"
+      ) {
+        title = "Data Analytics Course | Skill Forge Technologies";
+        desc =
+          "Learn Excel, SQL, Power BI, Python, dashboard development, business analytics, real-world projects, and placement assistance.";
+      } else if (
+        currentView !== "home" &&
+        preselectedCourse === "AWS Cloud"
+      ) {
+        title = "AWS and DevOps Course | Skill Forge Technologies";
+        desc =
+          "Learn AWS Cloud, Linux, Docker, Kubernetes, Terraform, CI/CD, practical labs, projects, and placement assistance.";
+      }
 
-  updateSEOMetadata({
-    title,
-    description: desc,
-  });
-}
-  };
+      updateSEOMetadata({
+        title,
+        description: desc,
+      });
+    }
+  }, [currentView, preselectedCourse]);
 
   const handleApplyClick = () => {
     if (currentView !== "home") {
@@ -238,7 +238,7 @@ export default function App() {
                   Empowering Tech Leaders of <span className="text-[#F5B400] font-black">Tomorrow</span>
                 </h1>
                 <p className="text-zinc-650 text-base sm:text-lg md:text-xl leading-relaxed max-w-3xl mx-auto font-light mb-12">
-                  Skill Forge is more than a bootcamp. We are an operational technology workspace designed by industry veterans to forge high-tier technical careers through rigorous, spreadsheet-synchronized, real-world mastery.
+                  Skill Forge is more than a bootcamp. We are an operational technology workspace designed by industry veterans to forge high-tier technical careers through rigorous, spreadsheet-synced workflows, project-based learning, and corporate-grade assessments.
                 </p>
 
                 {/* Elegant, Curated Images Showcase Grid */}
@@ -261,7 +261,7 @@ export default function App() {
                       </div>
                       <h3 className="text-sm font-bold text-zinc-950 mb-1">The Founding Technical Partners</h3>
                       <p className="text-zinc-500 text-xs font-light leading-relaxed">
-                       MD Ganesan Srinivasan, CEO Hari krishnan, COO Senthamil Selvan, and CMO Veath Prakash, combining over 45 years of production software engineering and tech leadership.
+                       MD Ganesan Srinivasan (CEO), Hari Krishnan (COO), Senthamil Selvan, and Veath Prakash (CMO), combining over 45 years of production software engineering and tech leadership.
                       </p>
                     </div>
                   </div>
@@ -336,7 +336,7 @@ export default function App() {
             <div className="text-center py-12 bg-white border-t border-zinc-200 flex justify-center">
               <button
                 onClick={handleApplyClick}
-                className="px-6 py-3 bg-[#F5B400] text-black rounded-lg font-bold hover:bg-black hover:text-[#F5B400] transition-colors duration-200 font-mono text-xs uppercase tracking-wider cursor-pointer shadow-md shadow-amber-500/10"
+                className="px-6 py-3 bg-[#F5B400] text-black rounded-lg font-bold hover:bg-black hover:text-[#F5B400] transition-colors duration-200 font-mono text-xs uppercase tracking-wider cursor-pointer"
               >
                 Apply Now
               </button>
