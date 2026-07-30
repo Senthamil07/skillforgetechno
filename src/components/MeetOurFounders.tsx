@@ -6,7 +6,6 @@ import { motion } from "motion/react";
 import ganeshImg from "../assets/images/regenerated_image_1782709084982.jpg";
 import hariImg from "../assets/images/regenerated_image_1782709086190.jpg";
 import tamilImg from "../assets/images/regenerated_image_1782709087886.jpg";
-
 import veathImg from "../assets/images/regenerated_image_1782709090512.jpg";
 
 interface Founder {
@@ -48,7 +47,7 @@ export const MeetOurFounders: React.FC = () => {
     {
       id: "veath",
       name: "Veath Prakash",
-      designation: "Co-Founder & Chief Marketing Officer (CMO)",
+      designation: "Founder & Chief Marketing Officer (CMO)",
       description: "The strongest brands don't compete. They redefine the game.",
       linkedin: "https://www.linkedin.com/in/veath-prakash-b-95b066227",
       imageUrl: veathImg,
