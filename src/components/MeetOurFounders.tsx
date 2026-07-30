@@ -18,7 +18,7 @@ interface Founder {
 }
 
 export const MeetOurFounders: React.FC = () => {
-  const founders: Founder[] = [
+  const foundersList = const foundersList =  [
     {
       id: "ganesh",
       name: "Ganesan Srinivasan",
