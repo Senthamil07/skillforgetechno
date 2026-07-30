@@ -44,7 +44,14 @@ export const MeetOurFounders: React.FC = () => {
       linkedin: "https://www.linkedin.com/in/senthamil-selvan-s-31531230b",
       imageUrl: tamilImg,
     },
-   
+   {
+      id: "kalai",
+      name: "Kalai",
+      designation: "Co-Founder & Chief Partner Business Officer (CPBO)",
+      description: "Every placement is the beginning of a new success story.",
+      linkedin: "https://www.linkedin.com/in/kalai-skillforge/",
+      imageUrl: kalaiImg,
+    },
     {
       id: "veath",
       name: "Veath Prakash",
