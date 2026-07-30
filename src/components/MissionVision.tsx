@@ -22,11 +22,11 @@ export const MissionVision: React.FC = () => {
   const [activeTab, setActiveTab] = useState<"all" | "story" | "challenges" | "ecosystem" | "vision">("all");
 
   const foundersList = const foundersList = [
-  "Ganesan Srinivasan (MD)",
-  "Hari krishnan Janarthanan (CEO)",
-  "Senthamil Selvan (COO)",
-  "Veath Prakash (CMO)"
-];
+    "Ganesan Srinivasan (MD)",
+    "Hari krishnan Janarthanan (CEO)",
+    "Senthamil Selvan (COO)",
+    "Veath Prakash (CMO)"
+  ];
 
   return (
     <section id="journey-blog" className="py-12 sm:py-20 lg:py-24 bg-[#fafafc] border-t border-b border-zinc-200 overflow-hidden font-sans">
@@ -49,7 +49,7 @@ export const MissionVision: React.FC = () => {
           <div className="flex flex-wrap items-center gap-x-6 gap-y-3 pt-3 text-xs text-zinc-500 font-mono border-t border-zinc-200/60 mt-4">
             <div className="flex items-center gap-1.5">
               <Users className="w-4 h-4 text-amber-600" />
-              <span>By: <strong>5 Co-Founders</strong></span>
+              <span>By: <strong>4 Co-Founders</strong></span>
             </div>
             <div className="flex items-center gap-1.5">
               <Calendar className="w-4 h-4 text-zinc-400" />
@@ -123,11 +123,11 @@ export const MissionVision: React.FC = () => {
                 </h2>
                 
                 <p className="text-zinc-650 text-sm leading-relaxed font-light">
-                  In early <strong>2026</strong>, five technical leaders and educators aligned on a singular, urgent goal: to launch a high-caliber <strong>ERP training</strong> and <strong>SAP course</strong> academy that bridges the vast gap between conventional degrees and active enterprise tech workloads in Tamil Nadu. Under the banner of <strong>Skill Forge</strong>, we built an elite digital-first technology workspace designed to deliver professional-grade <strong>ERP training</strong>. Operating <strong>exclusively in online mode</strong> to start, we ensured that ambitious student careers are forged in a simulated, high-intensity industry environment.
+                  In early <strong>2026</strong>, four technical leaders and educators aligned on a singular, urgent goal: to launch a high-caliber <strong>ERP training</strong> and <strong>SAP</strong> course.
                 </p>
 
                 <p className="text-zinc-650 text-sm leading-relaxed font-light">
-                  By taking an online-first stance, we completely eliminated geographical constraints. Traditional <strong>ERP training</strong> institutes and <strong>SAP</strong> centers often operate with rigid offline setups, forcing students from regional areas to commute or relocate to expensive urban hubs like Chennai or Coimbatore. Our virtual workspace allows any motivated learner to access top-tier corporate instructors directly. This online framework guarantees top-tier learning without physical overheads, which directly translates into more robust, comprehensive educational support for each student's <strong>career</strong>.
+                  By taking an online-first stance, we completely eliminated geographical constraints. Traditional <strong>ERP training</strong> institutes and <strong>SAP</strong> centers often struggled to provide live, production-like experiences at scale.
                 </p>
 
                 {/* Editorial Genesis Teamwork Image */}
@@ -143,7 +143,7 @@ export const MissionVision: React.FC = () => {
                 {/* Pull Quote Box */}
                 <div className="border-l-4 border-amber-500 bg-amber-50/40 p-4 rounded-r-xl my-6">
                   <p className="text-zinc-800 text-xs sm:text-sm font-medium italic leading-relaxed">
-                    "We didn't want to build another passive offline school with physical overhead constraints. We engineered a highly connected, live operational portal where five founders directly oversee our cohorts and check-ins every single day."
+                    "We didn't want to build another passive offline school with physical overhead constraints. We engineered a highly connected, live operational portal where four founders directly supervised the learning and assessment process."
                   </p>
                   <span className="block mt-2 font-mono text-[9px] text-[#926F12] uppercase font-bold">
                     — Ganesan Srinivasan, Managing Director
@@ -151,7 +151,7 @@ export const MissionVision: React.FC = () => {
                 </div>
 
                 <p className="text-zinc-650 text-sm leading-relaxed font-light">
-                  Starting online has also allowed us to establish real-time feedback loops. Instead of waiting for weekly reviews, student submissions are integrated directly into our operational databases. By pairing students with senior industry professionals, we make sure that every candidate learns the real-world operational guidelines of modern enterprise planning systems.
+                  Starting online has also allowed us to establish real-time feedback loops. Instead of waiting for weekly reviews, student submissions are integrated directly into our operational pipelines.
                 </p>
               </article>
             )}
@@ -170,15 +170,15 @@ export const MissionVision: React.FC = () => {
                 </h2>
                 
                 <p className="text-zinc-650 text-sm leading-relaxed font-light">
-                  Establishing a production-ready <strong>ERP training</strong> environment presented several complex structural challenges. Enterprise systems like <strong>SAP</strong> demand massive computing resources, expensive dedicated licenses, and intricate network configurations. For many students running standard laptops, setting up localized databases and configuration modules is virtually impossible, causing significant friction in their learning journey.
+                  Establishing a production-ready <strong>ERP training</strong> environment presented several complex structural challenges. Enterprise systems like <strong>SAP</strong> demand massive infrastructure and realistic data sets.
                 </p>
 
                 <p className="text-zinc-650 text-sm leading-relaxed font-light">
-                  To bypass these physical limitations, the engineering founders of <strong>Skill Forge</strong> designed a virtual sandbox pipeline. We created web-accessible cloud laboratory containers pre-configured with real-world enterprise databases. This eliminated installation bottlenecks entirely, allowing students to trigger financial journals, coordinate supply chain networks, and analyze large-scale organizational ledgers with zero lag.
+                  To bypass these physical limitations, the engineering founders of <strong>Skill Forge</strong> designed a virtual sandbox pipeline. We created web-accessible cloud laboratory containers and scripted realistic business scenarios.
                 </p>
 
                 <p className="text-zinc-650 text-sm leading-relaxed font-light">
-                  The second key challenge was student accountability. Traditional virtual courses suffer from low completion rates. We solved this by implementing synchronized operational syncs. In our program, every milestone and project submission is pushed to live Git repositories and recorded on active dashboards. This strict, hands-on tracking ensures that student outcomes match standard enterprise engineering quality, guaranteeing a successful transition into high-paying roles.
+                  The second key challenge was student accountability. Traditional virtual courses suffer from low completion rates. We solved this by implementing synchronized operational syncs and active mentoring.
                 </p>
               </article>
             )}
@@ -197,11 +197,11 @@ export const MissionVision: React.FC = () => {
                 </h2>
                 
                 <p className="text-zinc-650 text-sm leading-relaxed font-light">
-                  By refining our cloud architectures, <strong>Skill Forge</strong> successfully scaled from a remote online project into a fully fledged enterprise education ecosystem. This ecosystem combines world-class <strong>ERP training</strong>, comprehensive database courses, and modern analytics methodologies into a streamlined, cohesive learning path. Today, we support specialized cohorts in enterprise software configuration, big data analysis, AWS cloud, and database infrastructure.
+                  By refining our cloud architectures, <strong>Skill Forge</strong> successfully scaled from a remote online project into a fully fledged enterprise education ecosystem. This ecosystem emphasizes hands-on competency.
                 </p>
 
                 <p className="text-zinc-650 text-sm leading-relaxed font-light">
-                  Our scalable education ecosystem is built entirely on code competency. Instead of boring theoretical exams, we evaluate students through active code repositories and active systems configuration. Every milestone requires designing functional systems, connecting live APIs, and executing performance-tested database queries.
+                  Our scalable education ecosystem is built entirely on code competency. Instead of boring theoretical exams, we evaluate students through active code repositories and active system deployments.
                 </p>
 
                 {/* Detailed Blog-Style Breakdown */}
@@ -221,7 +221,7 @@ export const MissionVision: React.FC = () => {
                 </div>
 
                 <p className="text-zinc-650 text-sm leading-relaxed font-light">
-                  This multi-phase training system equips our students with the skills required to secure top-tier roles. By teaching modern version control, real-time sync hub integrations, and systematic database architectures, we prepare candidates for a stellar technical <strong>career</strong>.
+                  This multi-phase training system equips our students with the skills required to secure top-tier roles. By teaching modern version control, real-time sync hub integrations, and project-based assessments, we ensure measurable outcomes.
                 </p>
               </article>
             )}
@@ -240,15 +240,15 @@ export const MissionVision: React.FC = () => {
                 </h2>
                 
                 <p className="text-zinc-650 text-sm leading-relaxed font-light">
-                  The future vision of <strong>Skill Forge</strong> focuses on bridging the gap between virtual learning and global career opportunities. We plan to expand our online-forged blueprints into physical hybrid learning spaces across key strategic hubs in Tamil Nadu and surrounding regions. By blending the high-density accessibility of our online mode with localized physical collaboration facilities, we will offer a unique hybrid learning experience.
+                  The future vision of <strong>Skill Forge</strong> focuses on bridging the gap between virtual learning and global career opportunities. We plan to expand our online-forged blueprints into strategic partnerships and physical hubs.
                 </p>
 
                 <p className="text-zinc-650 text-sm leading-relaxed font-light">
-                  We are also building deeper strategic alignments with top consultation firms, global enterprise partners, and tier-1 IT recruiters. This ensures our <strong>ERP training</strong> and <strong>SAP</strong> training curriculum adapts immediately to changing corporate demands, ensuring high placement results for our students. We will continue updating our virtualization portals, allowing cohorts to manage complex inventory workflows, design robust server integrations, and analyze global enterprise data structures in real-time.
+                  We are also building deeper strategic alignments with top consultation firms, global enterprise partners, and tier-1 IT recruiters. This ensures our <strong>ERP training</strong> remains closely aligned with corporate needs.
                 </p>
 
                 <p className="text-zinc-650 text-sm leading-relaxed font-light">
-                  Ultimately, <strong>Skill Forge</strong> is more than just an educational course; it is a long-term engine for upward career mobility. We are fully committed to helping every single motivated student burn like the sun, master complex technology pipelines, and confidently claim their spot among the elite tech leaders of tomorrow.
+                  Ultimately, <strong>Skill Forge</strong> is more than just an educational course; it is a long-term engine for upward career mobility. We are fully committed to helping every student maximize their career trajectory.
                 </p>
               </article>
             )}
@@ -264,7 +264,7 @@ export const MissionVision: React.FC = () => {
                 Our Founders
               </h3>
               <p className="text-zinc-500 text-[11px] leading-relaxed mb-4 font-light">
-                Skill Forge was established in 2026 by 5 dedicated founders who continue to lead, refine curricula, and run live synchronizations:
+                Skill Forge was established in 2026 by 4 dedicated founders who continue to lead, refine curricula, and run live synchronizations:
               </p>
               
               <ul className="space-y-2.5">
@@ -306,7 +306,7 @@ export const MissionVision: React.FC = () => {
                   <div>
                     <h4 className="text-xs font-bold text-zinc-850">Synchronous Video Sync</h4>
                     <p className="text-zinc-500 text-[10px] leading-relaxed mt-0.5 font-light">
-                      Real-time interactive lectures overseen directly by our 5 founders.
+                      Real-time interactive lectures overseen directly by our 4 founders.
                     </p>
                   </div>
                 </div>
@@ -379,7 +379,7 @@ export const MissionVision: React.FC = () => {
                   <h4 className="font-extrabold text-xs text-zinc-900 uppercase tracking-widest font-mono">Our Mission</h4>
                 </div>
                 <p className="text-zinc-650 text-sm sm:text-base leading-relaxed font-light mb-8 max-w-3xl">
-                  To deliver world-class technical skills and premium, direct-to-instructor mentorship through an optimized online-only refinery, bridging the gap between regional academic syllabus tracks and fast-moving tech requirements.
+                  To deliver world-class technical skills and premium, direct-to-instructor mentorship through an optimized online-only refinery, bridging the gap between regional academic syllabi and enterprise-ready skills.
                 </p>
                 
                 {/* One by One details arranged horizontally on larger screens */}
@@ -397,7 +397,7 @@ export const MissionVision: React.FC = () => {
                       <CheckCircle2 className="w-4 h-4 text-amber-600 flex-shrink-0 mt-0.5" />
                       <div>
                         <strong className="text-zinc-800 text-xs block font-semibold">Direct Accountability</strong>
-                        <span className="text-zinc-500 text-xs leading-relaxed block font-light mt-1">Regular synchronous checks directly overseen and graded by our 5 founders.</span>
+                        <span className="text-zinc-500 text-xs leading-relaxed block font-light mt-1">Regular synchronous checks directly overseen and graded by our 4 founders.</span>
                       </div>
                     </li>
                     <li className="flex items-start gap-2.5">
@@ -420,9 +420,8 @@ export const MissionVision: React.FC = () => {
                   <h4 className="font-extrabold text-xs text-zinc-900 uppercase tracking-widest font-mono">Our Vision</h4>
                 </div>
                 <p className="text-zinc-650 text-sm sm:text-base leading-relaxed font-light mb-8 max-w-3xl">
-                  To pioneer an active, spreadsheet-backed technical learning standard that grows globally. We aim to scale from our virtual online root to strategic physical academies, empowering any motivated student to unlock top-tier roles.
+                  To pioneer an active, spreadsheet-backed technical learning standard that grows globally. We aim to scale from our virtual online root to strategic physical academies, empowering regional talent with enterprise-grade curriculum.
                 </p>
-                
                 {/* One by One details arranged horizontally on larger screens */}
                 <div className="border-t border-zinc-200/60 pt-6">
                   <h5 className="font-mono text-[10px] font-bold text-[#926F12] uppercase tracking-wider mb-5">Strategic Milestones</h5>
